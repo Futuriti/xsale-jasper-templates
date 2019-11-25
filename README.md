@@ -1,2 +1,3 @@
-# xsale-jasper-templates
+# Szablony wydruków do xSale
+
 files with .jasper extension
