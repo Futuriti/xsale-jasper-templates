@@ -4,6 +4,9 @@ Szablony edytuje sie: https://community.jaspersoft.com/project/jaspersoft-studio
 
 Gotowy szablon należy wczytać i używać w xSale zgodnie z dokumentacją: https://xsale.ai/docs/xsale-panel/konfiguracja-xsale/
 
+# Pierwsze uruchomienie wzoru
+Może zdażyć się sytuacja, że pierwsze uruchomienie wzoru, podczas podglądu, będzie generować błąd związany z `DataSet` lub `DataSource` - w takiej sytuacji trzeba przypiąć istniejące źródło danych lub wygenerować nowe źródło danych --> patrz poniżej 'Ładowanie danych z json' oraz `Kolekcja z json`
+
 # Kompilacja
 Program tworzy i pracuje na formacie `.jrxml`, aby można było go użyć do wygenerowania raportu trzeba go przekonwertować do formatu `.jasper`
 ![alt text](https://intranet.futuriti.pl/wp-content/uploads/2019/12/Konvertowanie-do-jasper-1.jpg)
@@ -71,7 +74,7 @@ Kontrolka – nie może być większa niż sekcja
 
 Suma wysokości sekcji nie może być większa niż strona. Jasper w niektórych sytuacjach zależnych od ustawień w Properties może nie renderować kontrolek, np: gdy sekcja posiada tabelę która rozszerza się dynamicznie, a strona posiada ustawienie sztywne wysokości
 
-# Kolekcję z json
+# Kolekcja z json
 
 Przeciągając kontrolkę Table uruchomi się Wizzard
 
@@ -93,4 +96,4 @@ Okno dialogowe Dataset and Query Dialog posiada tylko i wyłącznie ustawienia n
 
 Pod oknem edycji znajdują się zakładki Source oraz Preview, gdzie możesz podglądnąć wygenerowany kod xml oraz w locie przekompilować i pokazać szybki podgląd dokumentu na podstawie podpiętego Data Source
 
-Częsty podgląd jest pierwszym sitem wyłapywania większości błędów
+Częsty podgląd jest pierwszym śitem wyłapywania większości błędów
