@@ -5,7 +5,7 @@ Szablony edytuje sie: https://community.jaspersoft.com/project/jaspersoft-studio
 Gotowy szablon należy wczytać i używać w xSale zgodnie z dokumentacją: https://xsale.ai/docs/xsale-panel/konfiguracja-xsale/
 
 # Pierwsze uruchomienie wzoru
-Może zdażyć się sytuacja, że pierwsze uruchomienie wzoru, podczas podglądu, będzie generować błąd związany z `DataSet` lub `DataSource` - w takiej sytuacji trzeba przypiąć istniejące źródło danych lub wygenerować nowe źródło danych --> patrz poniżej 'Ładowanie danych z json' oraz `Kolekcja z json`
+Może zdażyć się sytuacja, że pierwsze uruchomienie wzoru, podczas podglądu, będzie generować błąd związany z `DataSet` lub `DataSource` - w takiej sytuacji trzeba przypiąć istniejące źródło danych lub wygenerować nowe źródło danych --> patrz poniżej `Ładowanie danych z json` oraz `Kolekcja z json`
 
 # Kompilacja
 Program tworzy i pracuje na formacie `.jrxml`, aby można było go użyć do wygenerowania raportu trzeba go przekonwertować do formatu `.jasper`
